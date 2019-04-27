@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/gamify.iml" filepath="$PROJECT_DIR$/.idea/gamify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gamify_clinet.iml" filepath="$PROJECT_DIR$/.idea/gamify_clinet.iml" />
     </modules>
   </component>
 </project>

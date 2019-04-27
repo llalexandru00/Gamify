@@ -1,0 +1,29 @@
+.LeftMenu {
+    background-color: #282c34;
+    font-size: calc(10 + 2vmin);
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.LeftMenu > .row > .col{
+    padding: 0;
+}
+
+.PlayerCard{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid gray;
+}
+
+.PlayerName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    margin: 0;
+}
+
+.Avatar{
+    width: 4em;
+}

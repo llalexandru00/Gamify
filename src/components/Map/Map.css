@@ -1,0 +1,377 @@
+@font-face {
+    font-family: 'Kabob';
+    src: url('../../resources/fonts/Kabob.ttf');
+}
+
+.grid-container {
+    font-family: 'Kabob';
+    word-spacing: 100vw;
+    font-size: 1.17vmin;
+    line-height: 90%;
+    letter-spacing: -0.5px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 13.1% 8.2% 8.2% 8.2% 8.2% 8.2% 8.2% 8.2% 8.2% 8.2% 13.1%;
+    grid-template-rows: 13.1% 8.2% 8.2% 8.2% 8.2% 8.2% 8.2% 8.2% 8.2% 8.2% 13.1%;
+    height: 100vh;
+    user-select: none;
+}
+
+.map-card {
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.grid-container :first-child {
+    border-top: 0;
+    border-right: 0;
+}
+
+.grid-container :last-child {
+    border-top: 0;
+    border-right: 0;
+}
+
+.map-center {
+    grid-row: 2 / span 9;
+    grid-column: 2 / span 9;
+}
+
+.map-card-turned {
+    transform: rotate(180deg);
+}
+
+.property-map-card {
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.property-map-card :last-child {
+    margin-top: auto;
+}
+
+.header-property-map-card {
+    height: 25%;
+    border-bottom: 3px solid black;
+}
+
+.text-property-map-card {
+    margin-top: 0.75em;
+}
+
+.price-propery-map-card {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.horizontal-property-map-card{
+    display:flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100%;
+}
+
+.horizontal-header-property-map-card {
+    width: 25%;
+    height: 100%;
+    border-left: 3px solid black;
+}
+
+.horizontal-text-property-map-card {
+    margin-right: 0.75em;
+    height: 100%;
+    writing-mode:vertical-rl; /* vertical text */
+}
+
+
+.horizontal-price-propery-map-card {
+    margin-left: 0.5em;
+    height: 100%;
+    writing-mode:vertical-rl; /* vertical text */
+}
+
+.horizontal-property-map-card :last-child {
+    margin-right: auto;
+}
+
+.chance-map-card {
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.text-chance-map-card{
+    text-align: center;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+.image-chance-map-card {
+    flex-grow: 1;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:55% 90%;
+}
+
+.horizontal-chance-map-card{
+    display:flex;
+    flex-direction: row-reverse;
+    width:100%;
+    height:100%;
+}
+
+.horizontal-text-chance-map-card{
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    writing-mode:vertical-rl; /* vertical text */
+}
+
+
+.horizontal-image-chance-map-card{
+    flex-grow: 1;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size:90% 55%;
+}
+
+.railroad-map-card {
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.text-railroad-map-card{
+    text-align: center;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+.image-railroad-map-card {
+    flex-grow: 1;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:80% 65%;
+}
+
+.price-railroad-map-card{
+    padding-bottom:0.5em;
+}
+
+.horizontal-railroad-map-card{
+    display:flex;
+    flex-direction: row-reverse;
+    width:100%;
+    height:100%;
+}
+
+.horizontal-text-railroad-map-card{
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    writing-mode:vertical-rl; /* vertical text */
+}
+
+.horizontal-image-railroad-map-card {
+    flex-grow: 1;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:65% 80%;
+}
+
+.horizontal-price-railroad-map-card {
+    writing-mode:vertical-rl; /* vertical text */
+    padding-left:0.5em;
+}
+
+.chest-map-card {
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.text-chest-map-card {
+    text-align: center;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+.image-chest-map-card {
+    flex-grow: 1;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:80% 65%;
+}
+
+.horizontal-chest-map-card {
+    display:flex;
+    flex-direction: row-reverse;
+    width:100%;
+    height:100%;
+}
+
+.horizontal-text-chest-map-card {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    writing-mode:vertical-rl; /* vertical text */
+}
+
+.horizontal-image-chest-map-card {
+    flex-grow: 1;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:65% 80%;
+}
+
+.water-map-card {
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.text-water-map-card{
+    text-align: center;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+.image-water-map-card {
+    flex-grow: 1;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:90% 90%;
+}
+
+.price-water-map-card{
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.horizontal-electric-map-card {
+    display:flex;
+    flex-direction: row-reverse;
+    width:100%;
+    height:100%;
+}
+
+.horizontal-text-electric-map-card
+{
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    writing-mode:vertical-rl; /* vertical text */
+}
+
+.horizontal-image-electric-map-card
+{
+    flex-grow: 1;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:90% 80%;
+}
+
+
+.horizontal-price-electric-map-card{
+    text-align: center;
+    margin-left: 0.5em;
+    writing-mode:vertical-rl; /* vertical text */
+}
+
+.horizontal-luxury-map-card {
+    display:flex;
+    flex-direction: row-reverse;
+    width:100%;
+    height:100%;
+}
+
+.horizontal-text-luxury-map-card{
+    font-size: 1.5vmin;
+    line-height: 100%;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    writing-mode:vertical-rl; /* vertical text */
+}
+
+.horizontal-image-luxury-map-card {
+    flex-grow: 1;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size:90% 80%;
+}
+
+.horizontal-price-luxury-map-card{
+    text-align: center;
+    margin-left: 0.5em;
+    writing-mode:vertical-rl; /* vertical text */
+}
+
+.income-map-card{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.text-income-map-card{
+    font-size: 1.5vmin;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 0.75em;
+    margin-bottom: 1.5em;
+}
+
+.image-income-map-card{
+    flex-grow: 1;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:20% 40%;
+}
+
+.price-income-map-card{
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.northwest-map-card{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width:100%;
+    transform: rotate(-45deg);
+}
+
+.text1-northwest-map-card{
+    font-size: 1.5vmin;
+    margin-top: 0.5em;
+}
+
+.text2-northwest-map-card{
+    font-size: 1.5vmin;
+    margin-bottom: 1em;
+}
+
+.image-northwest-map-card {
+    flex-grow: 1;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:50% 90%;
+}

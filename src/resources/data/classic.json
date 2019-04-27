@@ -1,0 +1,217 @@
+{
+  "map_cards": [
+    {
+      "type": "FreeParking",
+      "text1": "FREE",
+      "text2": "PARKING"
+    },
+    {
+      "type": "Property",
+      "color": "#ED1B24",
+      "name": "KENTUCKY AVENUE",
+      "price": "220"
+    },
+    {
+      "type": "Chance",
+      "name": "CHANCE",
+      "color": "blue"
+    },
+    {
+      "type": "Property",
+      "color": "#ED1B24",
+      "name": "INDIANA AVENUE",
+      "price": "220"
+    },
+    {
+      "type": "Property",
+      "color": "#ED1B24",
+      "name": "ILLINOIS AVENUE",
+      "price": "240"
+    },
+    {
+      "type": "Railroad",
+      "name": "B'&O' RAILROAD",
+      "price": "200"
+    },
+    {
+      "type": "Property",
+      "color": "#FDF100",
+      "name": "ATLANTIC AVENUE",
+      "price": "260"
+    },
+    {
+      "type": "Property",
+      "color": "#FDF100",
+      "name": "VENTNOR AVENUE",
+      "price": "260"
+    },
+    {
+      "type": "WaterUtility",
+      "name": "WATER WORKS",
+      "price": "150"
+    },
+    {
+      "type": "Property",
+      "color": "#FDF100",
+      "name": "MARVIN GARDENS",
+      "price": "280"
+    },
+    {
+      "type": "GoToJail"
+    },
+    {
+      "type": "Property",
+      "color": "#F7941D",
+      "name": "NEW-YORK AVENUE",
+      "price": "200"
+    },
+    {
+      "type": "Property",
+      "color": "#1FB259",
+      "name": "PACIFIC AVENUE",
+      "price": "300"
+    },
+    {
+      "type": "Property",
+      "color": "#F7941D",
+      "name": "TENNESSE AVENUE",
+      "price": "180"
+    },
+    {
+      "type": "Property",
+      "color": "#1FB259",
+      "name": "NORTH CAROLINA AVENUE",
+      "price": "300"
+    },
+    {
+      "type": "CommunityChest",
+      "name": "COMMUNITY CHEST"
+    },
+    {
+      "type": "CommunityChest",
+      "name": "COMMUNITY CHEST"
+    },
+    {
+      "type": "Property",
+      "color": "#F7941D",
+      "name": "ST.JAMES PLACE",
+      "price": "180"
+    },
+    {
+      "type": "Property",
+      "color": "#1FB259",
+      "name": "PENNSYLVANIA AVENUE",
+      "price": "320"
+    },
+    {
+      "type": "Railroad",
+      "name": "PENNSYLVANIA RAILROAD",
+      "price": "200"
+    },
+    {
+      "type": "Railroad",
+      "name": "SHORT LINE",
+      "price": "200"
+    },
+    {
+      "type": "Property",
+      "color": "#D93A97",
+      "name": "VIRGINIA AVENUE",
+      "price": "160"
+    },
+    {
+      "type": "Chance",
+      "name": "CHANCE",
+      "color": "orange"
+    },
+    {
+      "type": "Property",
+      "color": "#D93A97",
+      "name": "STATES AVENUE",
+      "price": "140"
+    },
+    {
+      "type": "Property",
+      "color": "#0072BB",
+      "name": "PARK PLACE",
+      "price": "350"
+    },
+    {
+      "type": "ElectricUtility",
+      "name": "ELECTRIC COMPANY",
+      "price": "150"
+    },
+    {
+      "type": "LuxuryTax",
+      "name": "LUXURY TAX",
+      "pay": "100"
+    },
+    {
+      "type": "Property",
+      "color": "#D93A97",
+      "name": "ST.CHARLES PLACE",
+      "price": "140"
+    },
+    {
+      "type": "Property",
+      "color": "#0072BB",
+      "name": "BOARDWALK",
+      "price": "400"
+    },
+    {
+      "type": "Jail"
+    },
+    {
+      "type": "Property",
+      "color": "#A6E3F8",
+      "name": "CONNECTICUT AVENUE",
+      "price": "120"
+    },
+    {
+      "type": "Property",
+      "color": "#A6E3F8",
+      "name": "VERMONT AVENUE",
+      "price": "100"
+    },
+    {
+      "type": "Chance",
+      "name": "CHANCE",
+      "color": "pink"
+    },
+    {
+      "type": "Property",
+      "color": "#A6E3F8",
+      "name": "ORIENTAL AVENUE",
+      "price": "100"
+    },
+    {
+      "type": "Railroad",
+      "name": "READING RAILROAD",
+      "price": "200"
+    },
+    {
+      "type": "IncomeTax",
+      "name": "INCOME TAX",
+      "pay": "200"
+    },
+    {
+      "type": "Property",
+      "color": "#965539",
+      "name": "BALTIC AVENUE",
+      "price": "60"
+    },
+    {
+      "type": "CommunityChest",
+      "name": "COMMUNITY CHEST"
+    },
+    {
+      "type": "Property",
+      "color": "#965539",
+      "name": "MEDITER- RANEAN AVENUE",
+      "price": "60"
+    },
+    {
+      "type": "Start"
+    }
+  ]
+}

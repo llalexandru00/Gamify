@@ -1,28 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import LeftMenu from "./components/LeftMenu/LeftMenu";
+import Map from "./components/Map/Map";
+
+var test_map = require('./resources/data/classic.json'); //(with path)
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+
+    render() {
+        return (
+          <Container className="App-header" fluid="true">
+            <Row>
+              <Col xs={2}><LeftMenu/></Col>
+              <Col xs={7} fixed><Map model={test_map}/></Col>
+              <Col className="RightMenu">2 of 2</Col>
+            </Row>
+          </Container>
+        );
+    }
 }
 
 export default App;
